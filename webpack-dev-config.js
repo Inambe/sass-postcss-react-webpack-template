@@ -8,6 +8,7 @@ module.exports = {
         rules: [
             {
                 test: /\.s?(c|a)ss$/,
+                exclude: /node_modules/,
                 use: [
                     { loader: MiniCssExtractPlugin.loader },
                     {
@@ -26,6 +27,11 @@ module.exports = {
                     },
                     { loader: 'sass-loader' }
                 ]
+            },
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                loader: "babel-loader"
             }
         ]
     }
