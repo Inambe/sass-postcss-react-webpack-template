@@ -4,6 +4,9 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin()
     ],
+    output: {
+        path: __dirname + '/build'
+    },
     module: {
         rules: [
             {
