@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './styles/index.sass';
 
+import App from "./js/components/app"
+
 ReactDOM.render(
-    <h1>It's a React App</h1>,
+    <App />,
     document.getElementById("react-app")
 );
