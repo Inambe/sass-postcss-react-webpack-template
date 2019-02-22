@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+import 'normalize.css';
 import './styles/index.sass';
 
 import App from "./js/components/app"
