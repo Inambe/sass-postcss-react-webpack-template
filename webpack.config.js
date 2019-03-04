@@ -55,7 +55,8 @@ module.exports = (env, argv) => {
     }else{
         // for development
         config.devServer = {
-            contentBase: './dist'
+            contentBase: './dist',
+            historyApiFallback: true
         };
         PostcssPlugins = [
             require('autoprefixer')
