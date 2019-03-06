@@ -2,6 +2,10 @@
   "name": "1",
   "version": "1.0.0",
   "description": "",
+  "template": {
+    "url": "https://github.com/Inambe/sass-postcss-react-wp-template",
+    "release": "v1.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
